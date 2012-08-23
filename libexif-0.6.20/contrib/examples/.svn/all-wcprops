@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples
+END
+cam_features.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/cam_features.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/Makefile.in
+END
+photographer.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/photographer.c
+END
+thumbnail.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/thumbnail.c
+END
+write-exif.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/write-exif.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/contrib/examples/Makefile
+END

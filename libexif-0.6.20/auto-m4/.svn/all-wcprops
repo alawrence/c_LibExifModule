@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4
+END
+lib-link.m4
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/lib-link.m4
+END
+lib-prefix.m4
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/lib-prefix.m4
+END
+ltsugar.m4
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/ltsugar.m4
+END
+lib-ld.m4
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/lib-ld.m4
+END
+gettext.m4
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/gettext.m4
+END
+libtool.m4
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/libtool.m4
+END
+ltversion.m4
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/ltversion.m4
+END
+progtest.m4
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/progtest.m4
+END
+lt~obsolete.m4
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/lt~obsolete.m4
+END
+ltoptions.m4
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/ltoptions.m4
+END
+nls.m4
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/nls.m4
+END
+iconv.m4
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/iconv.m4
+END
+po.m4
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/auto-m4/po.m4
+END

@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif
+END
+exif-utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-utils.h
+END
+exif-entry.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-entry.h
+END
+exif-ifd.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-ifd.h
+END
+exif.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/Makefile.in
+END
+exif-data.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-data.c
+END
+exif-data.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-data.h
+END
+exif-format.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-format.c
+END
+exif-format.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-format.h
+END
+exif-data-type.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-data-type.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/Makefile
+END
+exif-loader.c
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-loader.c
+END
+exif-content.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-content.c
+END
+exif-loader.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-loader.h
+END
+exif-tag.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-tag.c
+END
+exif-mnote-data-priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-mnote-data-priv.h
+END
+exif-byte-order.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-byte-order.c
+END
+exif-mem.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-mem.c
+END
+exif-content.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-content.h
+END
+libexif.sym
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/libexif.sym
+END
+exif-tag.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-tag.h
+END
+_stdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/_stdint.h
+END
+exif-log.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-log.c
+END
+exif-byte-order.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-byte-order.h
+END
+exif-mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-mem.h
+END
+exif-log.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-log.h
+END
+exif-mnote-data.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-mnote-data.c
+END
+exif-system.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-system.h
+END
+i18n.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/i18n.h
+END
+exif-mnote-data.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-mnote-data.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/Makefile.am
+END
+exif-utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-utils.c
+END
+exif-entry.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-entry.c
+END
+exif-ifd.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/libexif/exif-ifd.c
+END

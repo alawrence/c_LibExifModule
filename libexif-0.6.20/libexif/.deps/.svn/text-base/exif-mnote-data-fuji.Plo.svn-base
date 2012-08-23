@@ -1,0 +1,69 @@
+exif-mnote-data-fuji.lo: fuji/exif-mnote-data-fuji.c \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h \
+ ../config.h ../libexif/exif-byte-order.h ../libexif/exif-utils.h \
+ ../libexif/exif-format.h ../libexif/_stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h \
+ fuji/exif-mnote-data-fuji.h ../libexif/exif-mnote-data.h \
+ ../libexif/exif-log.h ../libexif/exif-mem.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h \
+ ../libexif/exif-mnote-data-priv.h ../libexif/exif-data.h \
+ ../libexif/exif-data-type.h ../libexif/exif-ifd.h ../libexif/exif-tag.h \
+ ../libexif/exif-content.h ../libexif/exif-entry.h \
+ ../libexif/fuji/mnote-fuji-entry.h ../libexif/fuji/mnote-fuji-tag.h \
+ ../libexif/fuji/exif-mnote-data-fuji.h
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/string.h:
+
+../config.h:
+
+../libexif/exif-byte-order.h:
+
+../libexif/exif-utils.h:
+
+../libexif/exif-format.h:
+
+../libexif/_stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/../../../../include/stdint.h:
+
+fuji/exif-mnote-data-fuji.h:
+
+../libexif/exif-mnote-data.h:
+
+../libexif/exif-log.h:
+
+../libexif/exif-mem.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.6.2/include/stdarg.h:
+
+../libexif/exif-mnote-data-priv.h:
+
+../libexif/exif-data.h:
+
+../libexif/exif-data-type.h:
+
+../libexif/exif-ifd.h:
+
+../libexif/exif-tag.h:
+
+../libexif/exif-content.h:
+
+../libexif/exif-entry.h:
+
+../libexif/fuji/mnote-fuji-entry.h:
+
+../libexif/fuji/mnote-fuji-tag.h:
+
+../libexif/fuji/exif-mnote-data-fuji.h:

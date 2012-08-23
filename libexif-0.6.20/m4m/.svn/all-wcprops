@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m
+END
+gp-check-popt.m4
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-check-popt.m4
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/Makefile.in
+END
+gp-byteorder.m4
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-byteorder.m4
+END
+gp-check-library.m4
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-check-library.m4
+END
+gp-references.m4
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-references.m4
+END
+stdint.m4
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/stdint.m4
+END
+gp-check-shell-environment.m4
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-check-shell-environment.m4
+END
+gp-packaging.m4
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-packaging.m4
+END
+gp-pkg-config.m4
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-pkg-config.m4
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/Makefile.am
+END
+gp-gettext-hack.m4
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-gettext-hack.m4
+END
+gp-config-msg.m4
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-config-msg.m4
+END
+gp-documentation.m4
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/gp-documentation.m4
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/forensics/!svn/ver/2509/projects/maytag/trunk/third-party-tools/libexif-0.6.20/m4m/Makefile
+END
