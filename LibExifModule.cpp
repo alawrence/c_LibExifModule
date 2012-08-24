@@ -15,7 +15,6 @@
 // System includes
 #include <string>
 #include <sstream>
-#include <iostream>  //remove this and cout statements below later
 
 // Framework includes
 #include "TskModuleDev.h"
@@ -232,7 +231,7 @@ extern "C"
                 }
                 
                 TskBlackboardAttribute attr(it->second, name(), "", speed);
-                pFile->addGenInfoAttribute(attr);
+                attrs.push_back(attr);
 
             }
             else if(it->first == EXIF_TAG_DATE_TIME_ORIGINAL){
