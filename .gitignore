@@ -10,3 +10,10 @@
 *.lai
 *.la
 *.a
+
+# Visual studio 
+win32/Debug/
+win32/Release/
+*.ncb
+*.suo
+*.user
