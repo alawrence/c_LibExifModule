@@ -35,6 +35,13 @@ namespace
     // We process the file 8k at a time
     static const uint32_t FILE_BUFFER_SIZE = 8192;
 
+    static void log_func(ExifLog *log, ExifLogCode code, const char * domain,
+        const char* format, va_list args, void * data)
+    {
+        vfprintf(stderr, format, args);
+        fprintf(stderr, "\n");
+    }
+
     std::map<ExifTag, TSK_ATTRIBUTE_TYPE> initializeTagMap()
     {
         std::map<ExifTag, TSK_ATTRIBUTE_TYPE> retval;
@@ -117,7 +124,7 @@ extern "C"
      *
      * @return The name of the module as a const char *.
      */
-    const char* name()
+    TSK_MODULE_EXPORT const char* name()
     {
         return "ExifExtract";
     }
@@ -127,7 +134,7 @@ extern "C"
      *
      * @return A description of the module as a const char *.
      */
-    const char* description()
+    TSK_MODULE_EXPORT const char* description()
     {
         return "Stores extracted EXIF data to the image database";
     }
@@ -137,7 +144,7 @@ extern "C"
      *
      * @return The version of the module as a const char *.
      */
-    const char* version()
+    TSK_MODULE_EXPORT const char* version()
     {
         return "0.0.0";
     }
@@ -191,10 +198,8 @@ extern "C"
                         decDegrees *= -1;
                 }
                 
-
                 TskBlackboardAttribute attr(it->second, name(), "", decDegrees);
-                attrs.push_back(attr);
-                
+                attrs.push_back(attr);                
             }
             else if (it->first == EXIF_TAG_GPS_SPEED)
             {
@@ -232,9 +237,9 @@ extern "C"
                 
                 TskBlackboardAttribute attr(it->second, name(), "", speed);
                 attrs.push_back(attr);
-
             }
-            else if(it->first == EXIF_TAG_DATE_TIME_ORIGINAL){
+            else if (it->first == EXIF_TAG_DATE_TIME_ORIGINAL) 
+            {
                 exif_entry_get_value(exifEntry, tag_data, 256);
                 datetime = std::string(tag_data);
             }
@@ -343,6 +348,8 @@ extern "C"
                 //exif_data_dump(exifData);
 
                 extractExifData(exifData, pFile);
+
+                exif_data_unref(exifData);
             }
 
             // Free the loader
