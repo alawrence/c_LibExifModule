@@ -1,5 +1,4 @@
-/* config.h.  Generated from config.h.in by configure.  */
-/* config.h.in.  Generated from configure.ac by autoheader.  */
+/* This config.h is created specifically for the visual studio build. */
 
 /* Define to 1 if translation of program messages to the user's native
    language is requested. */
