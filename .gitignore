@@ -11,9 +11,12 @@
 *.la
 *.a
 
-# Visual studio 
+# Visual studio
 win32/Debug/
 win32/Release/
+libexif-0.6.20/win32/Debug/
+libexif-0.6.20/win32/lib_exif/Debug/
+libexif-0.6.20/win32/lib_exif/Release/
 *.ncb
 *.suo
 *.user
