@@ -58,8 +58,8 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="libtskframework.lib libexif.dll.a"
-				AdditionalLibraryDirectories="&quot;$(TSK_HOME)\framework\win32\framework\$(ConfigurationName)&quot;;&quot;$(POCO_HOME)\lib&quot;;&quot;$(ProjectDir)\..\libexif-0.6.20\libexif\.libs&quot;"
+				AdditionalDependencies="libtskframework.lib lib_exif.lib"
+				AdditionalLibraryDirectories="&quot;$(TSK_HOME)\framework\win32\framework\$(ConfigurationName)&quot;;&quot;$(POCO_HOME)\lib&quot;;&quot;$(ProjectDir)\..\libexif-0.6.20\win32\release&quot;"
 				GenerateDebugInformation="true"
 				TargetMachine="1"
 			/>
@@ -83,7 +83,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libexif-12.dll $(OutDir)\.&#x0D;&#x0A;copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libgcc_s_dw2-1.dll $(OutDir)\.&#x0D;&#x0A;copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libintl-8.dll $(OutDir)\.&#x0D;&#x0A;copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libiconv-2.dll $(OutDir)\.&#x0D;&#x0A;"
+				CommandLine=""
 			/>
 		</Configuration>
 		<Configuration
@@ -130,8 +130,8 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="libtskframework.lib libexif.dll.a"
-				AdditionalLibraryDirectories="&quot;$(TSK_HOME)\framework\win32\framework\$(ConfigurationName)&quot;;&quot;$(POCO_HOME)\lib&quot;;&quot;$(ProjectDir)\..\libexif-0.6.20\libexif\.libs&quot;"
+				AdditionalDependencies="libtskframework.lib lib_exif.lib"
+				AdditionalLibraryDirectories="&quot;$(TSK_HOME)\framework\win32\framework\$(ConfigurationName)&quot;;&quot;$(POCO_HOME)\lib&quot;;&quot;$(ProjectDir)\..\libexif-0.6.20\win32\release&quot;"
 				GenerateDebugInformation="true"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
@@ -157,7 +157,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libexif-12.dll $(OutDir)\.&#x0D;&#x0A;copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libgcc_s_dw2-1.dll $(OutDir)\.&#x0D;&#x0A;copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libintl-8.dll $(OutDir)\.&#x0D;&#x0A;copy $(ProjectDir)..\libexif-0.6.20\libexif\.libs\libiconv-2.dll $(OutDir)\.&#x0D;&#x0A;"
+				CommandLine=""
 			/>
 		</Configuration>
 	</Configurations>

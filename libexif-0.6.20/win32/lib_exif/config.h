@@ -3,20 +3,20 @@
 
 /* Define to 1 if translation of program messages to the user's native
    language is requested. */
-#define ENABLE_NLS 1
+//#define ENABLE_NLS 1
 
 /* Define if the GNU dcgettext() function is already present or preinstalled.
    */
-#define HAVE_DCGETTEXT 1
+//#define HAVE_DCGETTEXT 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 /* #undef HAVE_DLFCN_H */
 
 /* Define if the GNU gettext() function is already present or preinstalled. */
-#define HAVE_GETTEXT 1
+//#define HAVE_GETTEXT 1
 
 /* Define if you have the iconv() function. */
-#define HAVE_ICONV 1
+//#define HAVE_ICONV 1
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -82,12 +82,21 @@
 /* Version number of package */
 #define VERSION "0.6.20"
 
-/* Define to empty if `const' does not conform to ANSI C. */
-/* #undef const */
+#include <windows.h>
+#include <shellapi.h>
+#include <tchar.h>
+#include <io.h>
+#include "intrin.h"
 
-/* Define to `inline__' or `inline' if that's what the C compiler
-   calls it, or to nothing if 'inline' is not supported under any name.  */
-#ifndef __cplusplus
-/* #undef inline */
-#endif
+#define  inline __inline
+typedef unsigned __int16 uint16_t;
+typedef __int16 int16_t;
+typedef unsigned __int32 uint32_t;
+typedef __int32 int32_t;
+typedef int ssize_t;
 
+#define snprintf   _snprintf
+#undef ENABLE_NLS
+#undef HAVE_DCGETTEXT
+#undef HAVE_GETTEXT
+#undef HAVE_ICONV

@@ -100,14 +100,16 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalOptions="/DGETTEXT_PACKAGE=\&quot;libexif-12\&quot; /DLOCALEDIR= /Dinline=__inline /Duint16_t=&quot;unsigned __int16&quot; /Dint16_t=__int16 /Duint32_t=&quot;unsigned __int32&quot; /Dint32_t=__int32 /Dssize_t=int&#x0D;&#x0A;"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories="..\..\"
+				AdditionalIncludeDirectories=".;..\..\"
+				PreprocessorDefinitions="GETTEXT_PACKAGE=\&quot;libexif-12\&quot;;LOCALEDIR="
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
 				WarningLevel="3"
 				DebugInformationFormat="3"
+				ForcedIncludeFiles=""
+				ForcedUsingFiles=""
 			/>
 			<Tool
 				Name="VCManagedResourceCompilerTool"
@@ -149,6 +151,14 @@
 			<File
 				RelativePath="..\..\libexif\exif-byte-order.c"
 				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="config_msvc.h"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath="..\..\libexif\exif-content.c"
@@ -181,6 +191,14 @@
 			<File
 				RelativePath="..\..\libexif\exif-mem.c"
 				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles="$(SolutionDir)\lib_exif\config.h"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath="..\..\libexif\canon\exif-mnote-data-canon.c"
@@ -229,6 +247,14 @@
 			<File
 				RelativePath="..\..\libexif\olympus\mnote-olympus-entry.c"
 				>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						ForcedIncludeFiles=""
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath="..\..\libexif\olympus\mnote-olympus-tag.c"
@@ -253,7 +279,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\config.h"
+				RelativePath=".\config.h"
 				>
 			</File>
 			<File
