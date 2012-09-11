@@ -2,6 +2,6 @@
 
 //modified to not include stdint for visual studio builds
 
-#ifndef _MSC_VER
+#ifdef HAVE_STDINT_H
 #include <stdint.h>
 #endif
