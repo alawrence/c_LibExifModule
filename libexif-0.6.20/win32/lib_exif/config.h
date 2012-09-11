@@ -1,5 +1,11 @@
 /* This config.h is created specifically for the visual studio build. */
 
+#include <windows.h>
+#include <shellapi.h>
+#include <tchar.h>
+#include <io.h>
+#include "intrin.h"
+
 /* Define to 1 if translation of program messages to the user's native
    language is requested. */
 //#define ENABLE_NLS 1
@@ -27,8 +33,16 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
+#ifdef _MSC_VER 
+#if _MSC_VER >= 1600
 #define HAVE_STDINT_H 1
-
+#else
+typedef unsigned __int16 uint16_t;
+typedef __int16 int16_t;
+typedef unsigned __int32 uint32_t;
+typedef __int32 int32_t;
+#endif
+#endif
 /* Define to 1 if you have the <stdlib.h> header file. */
 #define HAVE_STDLIB_H 1
 
@@ -81,19 +95,8 @@
 /* Version number of package */
 #define VERSION "0.6.20"
 
-#include <windows.h>
-#include <shellapi.h>
-#include <tchar.h>
-#include <io.h>
-#include "intrin.h"
-
-#define  inline __inline
-typedef unsigned __int16 uint16_t;
-typedef __int16 int16_t;
-typedef unsigned __int32 uint32_t;
-typedef __int32 int32_t;
 typedef int ssize_t;
-
+#define  inline __inline
 #define snprintf   _snprintf
 #undef ENABLE_NLS
 #undef HAVE_DCGETTEXT
