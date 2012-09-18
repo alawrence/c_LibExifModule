@@ -58,7 +58,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="libtskframework.lib lib_exif.lib"
+				AdditionalDependencies="libtskframework.lib lib_exifVC9.lib"
 				AdditionalLibraryDirectories="&quot;$(TSK_HOME)\framework\win32\framework\$(ConfigurationName)&quot;;&quot;$(POCO_HOME)\lib&quot;;&quot;$(ProjectDir)\..\libexif-0.6.20\win32\release&quot;"
 				GenerateDebugInformation="true"
 				TargetMachine="1"
